@@ -1,0 +1,228 @@
+body
+{
+    background-color: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+header h1 img
+{
+    margin-top: 5vmin;
+    margin-left: 20vmin;
+    width: 35px;
+}
+
+main
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Seccion donde recibimos y procesamos texto */
+.toProcess
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 7.8vh;
+    margin-left: 16vw;
+}
+
+/* Texto a procesar */
+.inputText
+{
+    font-size: 30px;
+    width: 40vw;
+    min-height: 50vh;
+    resize: none;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #eaeef6;
+}
+
+.inputText::placeholder
+{
+    color: #0A3871;
+}
+
+.inputText::-webkit-scrollbar
+{
+    display: none;
+}
+
+/* Instrucciones de uso */
+.toProcess div
+{
+    margin-bottom: 72px;
+}
+
+.toProcess div p
+{
+    display: flex;
+    font-size: 16px;
+    margin-bottom: 1.6vh;
+}
+
+.toProcess div p img
+{
+    margin-right: 0.5vw;
+}
+
+/* Botones */
+button
+{
+    width: 22vw;
+    height: 6.5vh;
+    font-size: 16px;
+    transition: 1s;
+    border-radius: 24px;
+}
+
+button:hover
+{
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+/* Botones de encriptar y desencriptar texto */
+.encrypt
+{
+    margin-right: 2vw;
+    background: #0A3871;
+    border: 1px solid #6085b3;
+    color: #FFFFFF;
+}
+
+.decrypt
+{
+    background: #0A3871;
+    border: 1px solid #6085b3;
+    color: #FFFFFF;
+}
+
+/* Seccion donde se muestra el resultado */
+.result
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    bottom: 48px;
+    margin-right: 2.7vw;
+    background-color: #FFFFFF;
+    width: 27.7vw;
+    padding-left: 2.2vw;
+    padding-right: 2.2vw;
+    box-shadow: 0px 5px 28px 5px #0A3871;
+    border-radius: 32px;
+}
+
+/* Imagen a la espera de un texto */
+.result img
+{
+    margin-top: 23.7vh;
+    margin-bottom: 32px;
+}
+
+/* Mostrar resultado */
+.showResult
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Texto procesado */
+.resultText
+{
+    display: flex;
+    color: #495057;
+    font-size: 24px;
+    min-height: 30em;
+    margin-top: 3.2vh;
+    margin-bottom: 3.2vh;
+}
+
+/* Boton para copiar el resultado */
+.copyButton
+{
+    margin-bottom: 24px;
+    background-color: inherit;
+    border-color: #0A3871;
+    color: #0A3871;
+}
+
+/* Esconder interfaz de resultado */
+.hideContent
+{
+    display: none;
+}
+
+/* A la espera de un texto */
+.result p
+{
+    text-align: center;
+}
+
+/* Notificar la falta de texto */
+#withoutText
+{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #343A40;
+    margin-bottom: 16px;
+}
+
+/* Pedir texto al usuario (Input) */
+#askForInput
+{
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    margin-bottom: 23.7vh;
+}
+
+/* Fondo pie de pagina */
+footer{
+    background-color: #0A3871;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    }
+
+    footer a {
+        color: white;
+    }
+
+.red-social{
+    height: 50px;
+    padding:0 25px;
+    }
+    
+.red-social:hover{
+    height:53px ;
+    }
+
+.gh-social{
+    height: 60px;
+    padding:0 35px;
+    }
+    
+.gh-social:hover{
+    height:63px ;
+    }
+
+.contactLink:hover
+{
+    color: #FFFFFF;
+}
