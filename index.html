@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de texto by Efrain Huerta </title>
+        <link rel="stylesheet" href="/styles/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="icon" href="images/Logo.png">
+
+    </head>
+    <body>
+        <header>
+            <h1><img src="img/logo.png" alt="Logo Alura"></h1>
+        </header>
+        <main>
+            <section class="toProcess">
+                <textarea class="inputText" type="text" placeholder="Ingresa el texto aquí"></textarea>
+                <div>
+                    <button type="button" class="encrypt">Encriptar</button>
+                    <button type="button" class="decrypt">Desencriptar</button>
+                </div>
+            </section>
+            <section class="result">
+                <img src="img/munheco.png" alt="Muñeco buscando texto" id="munheco">
+                <div class="hideContent" id="resultContent">
+                    <p class="resultText"></p>
+                    <button type="button" class="copyButton">Copiar</button>
+                </div>
+                <div id="hideMesagges">
+                    <p id="withoutText">Ningún mensaje encontrado</p>
+                    <p id="askForInput">Ingresa el texto que deseas encriptar o desencriptar.</p>
+                </div>
+            </section>
+        </main>
+        
+		<footer>
+     
+			<ul>
+			   <a href="https://www.instagram.com/Efrazzl"><img src="img/instalogo.png" class="red-social"></a>
+			   
+			   <a href="https://www.linkedin.com/in/efrainhg/"><img src="img/linklogo.png" class="red-social"></a>
+		   
+			   <br>
+				   <p>Encuentra el codigo de esta aplicacion aqui:</p>
+			   <br>
+			   <a href="https://github.com/Efrazzl/Encriptador_de_texto"><img src="img/gh.png" class="gh-social"></a>
+		   </ul>
+	   
+		</footer>
+
+    </body>
+
+    <script src="encrypt.js"></script>
+
+</html>
